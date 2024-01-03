@@ -120,7 +120,7 @@ void loop() {
                 tm->tm_hour, tm->tm_min, tm->tm_sec);
   delay(1000);
   int hour = tm ->tm_hour;
-  while (hour < 19 && hour > 17) {
+  while (hour < 20 && hour > 17) {
     digitalWrite(33, LOW);
     delay (1000);
     saveCapturedImage();
